@@ -24,6 +24,7 @@ def won?(board)
     print board[combo[0]]
     print board[combo[1]]
     print board[combo[2]]
+    print position_taken?(board, combo[0])
   end
 end
 
